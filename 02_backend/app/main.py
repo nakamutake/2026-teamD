@@ -49,8 +49,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://127.0.0.1:3000",
-        "https://two026-teamd-nbf9.onrender.com",
-        "https://2026-team-d.vercel.app",
+        "https://2026-team-d-git-chore-integrate-auth-o-15a802-sukkitis-projects.vercel.app",
         # 必要に応じて、今後デプロイするフロントのURLもここに追加    ,
     ],
     allow_origin_regex=r"^https://2026-team-d(?:-[a-z0-9-]+)?\.vercel\.app$",
