@@ -53,6 +53,7 @@ app.add_middleware(
         "https://2026-team-d.vercel.app",
         # 必要に応じて、今後デプロイするフロントのURLもここに追加    ,
     ],
+    allow_origin_regex=r"^https://2026-team-d(?:-[a-z0-9-]+)?\.vercel\.app$",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
